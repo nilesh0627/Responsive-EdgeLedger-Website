@@ -1,0 +1,36 @@
+@media(max-width:500px){
+    .navbar{
+        display:flex;
+        flex-direction: column;
+    }
+
+    /* not working */
+    .showcase .showcase-content{   
+        top:110px;
+    }
+
+
+    #what .items{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #who .left-content{
+        display: none;
+    }
+
+    .clients .items div:last-child{
+        display: none;
+    }
+
+    #contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map{
+        height: 300px;
+        border-top: 4px solid #333;
+    }
+}

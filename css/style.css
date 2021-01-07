@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+/* Utility Classes */
+a{
+    text-decoration: none;
+}
+.text-primary{
+    color: #93cb52;
+}
+
+.l-heading{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+
+.lead{
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.btn{
+    color: #fff;
+    background: #93cb52;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #7ab436;
+}
+
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-light{
+    background: lightgray;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.py-1{
+    padding: 45px 0;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+
+.m-heading{
+    font-size: 2rem;
+}
+/* Navbar */
+.navbar{
+    position: sticky;
+    top: 0;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    z-index: 1;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+/* ShowCase */
+
+.showcase{
+    color: #fff;
+    background: url(../images/showcase.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+
+
+/* Image Overlay (little blackish image) */
+
+.showcase .showcase-content{
+    position: absolute;
+    top:62px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+/********************************************************************************************************************************************************************* */
+
+#what .container .items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#what .container h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item{
+    text-align: center;
+    flex: 1;
+    padding: 0 25px;
+}
+
+.item .fas{
+    background: #93cb52;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.item h3{
+    margin: 10px 0;
+}
+
+
+/* Who we Are */
+#who {
+    display: flex;
+}
+
+#who .left-content{
+    flex: 1;
+    background: url(../images/people.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#who .right-content{
+    flex:1;
+    padding: 30px 25px;
+    background: #333;
+    color: #fff;
+}
+
+.right-content h2,p,ul > li
+{
+    padding-top: 10px;
+}
+
+.team li{
+    border-bottom: 1px solid #50514F;
+}
+
+.team{
+    list-style: none;
+}
+
+/* Our Clients */
+.clients .m-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 35px 0;
+}
+
+.clients img{
+    width: 60%;
+}
+.clients .items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+
+
+/* Contact Form */
+
+#contact{
+    display: flex;
+}
+
+.contact-form{
+    flex:1;
+    background: #93cb52;
+    padding: 15px;
+    color: #fff;
+}
+.map{
+    flex: 1;
+}
+
+.contact-form .form-group label{
+    display: block;
+}
+
+.contact-form .form-group{
+    margin-bottom: 10px;
+}
+
+.contact-form .form-group input,textarea{
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form .btn-dark{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-form > h2,p{
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+.main-footer p{
+    text-align: center;
+} 
+
+.main-footer{
+    padding: 10px;
+}
